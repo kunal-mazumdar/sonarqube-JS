@@ -18,7 +18,7 @@ Truck.prototype = {
     } else if (this.year > 2011) {
       return '$300000';
     } else {
-      return '$15000 - 300000';
+      return (15000-300000);
     }
   }
 };

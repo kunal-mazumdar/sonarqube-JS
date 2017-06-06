@@ -4,7 +4,7 @@
 * Removed methods:
 * - startEngine ()
 * - stopEngine ()
-*
+* 
 */
 var Vehicle = function(brand, model, year) {
   this.brand = brand;
@@ -13,7 +13,6 @@ var Vehicle = function(brand, model, year) {
   this.engineState = 'stopped';
   this.messageToDriver = '';
 };
-
 
 // single line comments line 1
 // single line comments line 2
@@ -36,7 +35,7 @@ Vehicle.prototype = {
   },
 
   stopEngineWithCheck : function() {
-    if (this.engineState === 'started') {
+    if (this.engineState == 'started') {
       this.engineState = 'stopped';
       this.messageToDriver = 'all good. c u later';
       return 'engine stopped';

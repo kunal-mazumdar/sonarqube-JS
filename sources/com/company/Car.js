@@ -17,8 +17,6 @@ Car.prototype = {
       return '$1500';
     } else if (this.year > 2011) {
       return '$30000';
-    } else {
-      return '$1500 - 30000';
     }
   },
 
