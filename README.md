@@ -1,4 +1,4 @@
-This example demonstrates how to analyze a JavaScript project with the SonarQube Scanner.
+This example demonstrates how to analyze a JavaScript project with the SonarQube Scanner reusing an LCOV report.
 
 Prerequisites
 =============
