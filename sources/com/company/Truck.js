@@ -18,6 +18,7 @@ Truck.prototype = {
 		} else if (this.year > 2011) {
 			return '$300000';
 		} else {
+      alert("Unexpected Condition");
 			return '$15000 - 300000';
 		}
 	}
